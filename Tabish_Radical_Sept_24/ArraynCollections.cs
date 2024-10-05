@@ -9,19 +9,19 @@ namespace Tabish_Radical_Sept_24
 {
     internal class ArraynCollections
     {
-        static void Main()
-        {
+        //static void Main()
+        //{
 
-            //DemoArray();
-            // GetInputArrayAndDisplay();
-            //  SortingExample();
-            // TwoDArray();
-            //JaggedArray();
-            string[] InputArr=InputArray();
-            DisplayArray(InputArr);
+        //    //DemoArray();
+        //    // GetInputArrayAndDisplay();
+        //    //  SortingExample();
+        //    // TwoDArray();
+        //    //JaggedArray();
+        //    string[] InputArr=InputArray();
+        //    DisplayArray(InputArr);
 
-            Console.ReadLine();
-        }
+        //    Console.ReadLine();
+        //}
 
         static void DemoArray()
         {
