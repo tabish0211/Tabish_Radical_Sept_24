@@ -1,0 +1,162 @@
+﻿1.Procedural oriented programming---wrap data, provide security,top-down approach , C langauge 
+2.Object based langauges--JS--Inheritance & polymorphism---not available
+3.Object oriented programming --Security, objects,bottom-up,C#
+1.Abstraction
+2.Encapsulation
+3.Inheritance
+4.Polymorphism
+
+1.Hiding unnecessary details from user is called---Abstarction varies audience to audience
+2.Encapsulation--Practical implementaion of abstarction
+the wrapping up of data and methods into a single unit that is called class and whole process is known as encapsulation
+
+class A
+{
+//Data
+int x;
+
+//Methods
+void xyz()
+{
+
+}
+}
+
+class-Class isa blue print of an object
+Object-Physical construct of a class----occupy memory
+new A();
+charactersitics of an object -1.state---data 2.Behaviour --Methods 3.Unique---occupy a separet in RAM 
+
+----Data Hiding---is a technique to provide security or accessibilty over data
+oop--Three interface level by which you can protect the data
+1.Public
+2.Private
+3.Protected
+
+---in C#
+4.internal
+5.protected internal
+6.private protected
+
+
+
+-Inheritance
+Acquiring all properties of base class by Derive calss is called inheritance
+
+Animal--Base/Parent/Super
+{
+
+GenrateSound();
+private string name
+
+}
+
+Dog---Derive/child/sub
+Dog --->Animal
+{
+//private--comes/not ---no---yes---not accessible
+Run();
+}
+
+single-level Inheritance---
+class A
+{
+}
+
+class B:A
+{
+
+}
+
+class c :A
+{
+
+}
+
+***************
+2.Mulitilevel
+
+class A{}
+class B:A
+{}
+class c:B{}
+
+*************
+3.Multiple---in C# 
+More than one parents for the derive class
+
+class A
+{
+void disp(){}
+}
+
+class B
+{
+
+void disp(){}
+}
+
+class C
+{
+void disp(){}
+}
+
+class D:A,B,C
+{
+
+//Diamond problem
+}
+---in C++---
+
+-Polymorphism--Poly--many--moph--form---Manyforms--
+A single Interface which behaves differently as per situation is called polymorphism
+--Human being---Eat,Run,Sing,play,sleep
+1)Overloading
+--SameMethod(diffirence in list params)
+sum(int x,int y), sum(int x, int y ,int z)--false polymorphism
+--early binding, compiletime polymorphism
+2)Overriding
+--Same method having same signature --that differntly
+--True polymorphism, Late binding, Runtime polymorphism
+--Inheritance
+Class A{
+
+xyz()
+
+}
+
+class B:A{
+
+xyz--again
+}
+
+
+Advantages:
+1.Encapsulation/Abstarction provides Security
+2.Ineritance--Reusabuilty of class
+3.Polymorphism--Clean code or resilient code
+
+Do we have any disadvantage of oop
+--OOP supports only  homegeniuos system
+
+Class A---Obecjt of class--obj
+Wnated to pass obj to Class B--in order to communicate b/w these two entity --both should be of same protocol--on C#
+
+--Hetrogeniuos 
+class A--obj--in C#
+Class B---in Java
+
+---SOA--Service oriented Architecture---RESTFUL Service--API
+A--obj--serialized--transforming C# object to binary --wire---
+Java--Deseiarlize--Binary to java class --
+
+
+
+
+
+
+
+
+
+
+
