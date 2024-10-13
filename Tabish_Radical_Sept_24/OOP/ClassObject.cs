@@ -1,127 +1,125 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
-namespace Tabish_Radical_Sept_24.OOP
-{
+//namespace Tabish_Radical_Sept_24.OOP
+//{
 
-    class Launcher
-    {
-        //static void Main()
-        //{
+//    class Launcher
+//    {
+//        //static void Main()
+//        //{
 
-        //    //(new ClassObject()).Display();
-        //    //ClassObject obj = new ClassObject();
-        //    //obj.Display();
+//        //    //(new ClassObject()).Display();
+//        //    //ClassObject obj = new ClassObject();
+//        //    //obj.Display();
 
-        //    //(new ClassObject()).Display();
-        //    //(new ClassObject()).Operation();
+//        //    //(new ClassObject()).Display();
+//        //    //(new ClassObject()).Operation();
 
-        //    Console.ReadLine();
+//        //    Console.ReadLine();
 
-        //}
-
-
+//        //}
 
 
 
 
-        static void Main()
-        {
-            Customer customer = new Customer();
 
-            //customer.SetCustomerId(1);
-            //customer.SetCustomerName("Ramesh");
-            //var id=customer.GetCustomerId();
-            //var name=customer.GetCustomerName();
 
-            customer.ID = 1;
-            customer.Name = "Ramesh";
+//        //static void Main()
+//        //{
+//        //    Customer customer = new Customer();
+
+//        //    //customer.SetCustomerId(1);
+//        //    //customer.SetCustomerName("Ramesh");
+//        //    //var id=customer.GetCustomerId();
+//        //    //var name=customer.GetCustomerName();
+
+//        //    customer.ID = 1;
+//        //    customer.Name = "Ramesh";
             
 
-            Console.WriteLine($"Id={customer.ID} and name={customer.Name}");
-            Console.ReadLine();
+//        //    Console.WriteLine($"Id={customer.ID} and name={customer.Name}");
+//        //    Console.ReadLine();
 
-        }
-    }
+//        //}
+//    }
 
-    //encapsulation--Implement properties
+//    //encapsulation--Implement properties
 
-    class Customer
-    {
+//    class Customer
+//    {
 
-        //private int _id;
-        //private string _name;
+//        //private int _id;
+//        //private string _name;
 
-        ////C# 2.0
-        //public int ID {
-        //    set { 
+//        ////C# 2.0
+//        //public int ID {
+//        //    set { 
 
-        //        _id = value;
+//        //        _id = value;
 
-        //    }
-        //    get
-        //    {
-        //        return _id;
-        //    }        
-
-
-        //}
-
-        //public string Name
-        //{
-        //    set
-        //    {
-
-        //        _name = value;
-
-        //    }
-        //    get
-        //    {
-        //        return _name;
-        //    }
+//        //    }
+//        //    get
+//        //    {
+//        //        return _id;
+//        //    }        
 
 
-        //}
+//        //}
 
-        public int ID { get; set; }
-        public string Name  { get; set; }
+//        //public string Name
+//        //{
+//        //    set
+//        //    {
 
-        ////Defauult attribute is private for methods in C#
-        //public void SetCustomerId(int cid)
-        //{
+//        //        _name = value;
 
-        //    id = cid;
-
-        //}
-
-        //public void SetCustomerName(string cname)
-        //{
-
-        //    name = cname;
-
-        //}
-
-        //public int GetCustomerId()
-        //{
-
-        //    return id;
-
-        //}
-
-        //public string GetCustomerName()
-        //{
-
-        //    return name;
-
-        //}
+//        //    }
+//        //    get
+//        //    {
+//        //        return _name;
+//        //    }
 
 
-    }
+//        //}
+
+//        public int ID { get; set; }
+//        public string Name  { get; set; }
+
+//        ////Defauult attribute is private for methods in C#
+//        //public void SetCustomerId(int cid)
+//        //{
+
+//        //    id = cid;
+
+//        //}
+
+//        //public void SetCustomerName(string cname)
+//        //{
+
+//        //    name = cname;
+
+//        //}
+
+//        //public int GetCustomerId()
+//        //{
+
+//        //    return id;
+
+//        //}
+
+//        //public string GetCustomerName()
+//        //{
+
+//        //    return name;
+
+//        //}
 
 
+//    }
 
 
 
@@ -129,24 +127,26 @@ namespace Tabish_Radical_Sept_24.OOP
 
 
 
-    class ClassObject
-    {
-        int x;
-        public void Operation()
-        {
-
-            x = x + 1;
-        }
-
-        public void Display()
-        {
 
 
-            Console.WriteLine(x);
-        }
+//    class ClassObject
+//    {
+//        int x;
+//        public void Operation()
+//        {
+
+//            x = x + 1;
+//        }
+
+//        public void Display()
+//        {
 
 
-    }
+//            Console.WriteLine(x);
+//        }
+
+
+//    }
 
     
-}
+//}
