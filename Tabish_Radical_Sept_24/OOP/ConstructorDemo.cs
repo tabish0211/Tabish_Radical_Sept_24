@@ -157,73 +157,73 @@ namespace Tabish_Radical_Sept_24.OOP
     }
 
 
-    class ClientClass
-    {
-        static void Main() {
+//    class ClientClass
+//    {
+//        static void Main() {
 
-            ///Customer obj = new Customer("Ramesh");//IBM
+//            ///Customer obj = new Customer("Ramesh");//IBM
            
 
-            //obj.WriteData();
-            //obj.Details();
+//            //obj.WriteData();
+//            //obj.Details();
 
-             Customer anothrCLient = new Customer("Rahul", 1200);
-             //wipro
-             anothrCLient.Details();
+//             Customer anothrCLient = new Customer("Rahul", 1200);
+//             //wipro
+//             anothrCLient.Details();
 
-            //Customer mynewCLient = anothrCLient;
-            //mynewCLient.WriteData();
+//            //Customer mynewCLient = anothrCLient;
+//            //mynewCLient.WriteData();
 
-            //anothrCLient.Details();
+//            //anothrCLient.Details();
 
-            //copy constructor
+//            //copy constructor
 
-            var myCLonedObject = Customer.Clone(anothrCLient);
-            myCLonedObject.WriteData();
+//            var myCLonedObject = Customer.Clone(anothrCLient);
+//            myCLonedObject.WriteData();
 
-            anothrCLient.Details();
+//            anothrCLient.Details();
 
-            //find out what deep copy and it use cases
-
-
+//            //find out what deep copy and it use cases
 
 
 
-            Console.ReadLine();
+
+
+//            Console.ReadLine();
         
-        }
+//        }
 
-        //tabish.com
-        //Site is up now
-        //static void Main()
-        //{
-        //    //Console.WriteLine("Enter minm balnce");
-        //    //int bal = Convert.ToInt32(Console.ReadLine());
-        //    //var demo = new ConstructorDemo(bal);//explicit calling of constructor
+//        //tabish.com
+//        //Site is up now
+//        //static void Main()
+//        //{
+//        //    //Console.WriteLine("Enter minm balnce");
+//        //    //int bal = Convert.ToInt32(Console.ReadLine());
+//        //    //var demo = new ConstructorDemo(bal);//explicit calling of constructor
 
-        //    //demo.DisplayBalance();
+//        //    //demo.DisplayBalance();
 
-        //    //Console.WriteLine("Enter deposit amount");
-        //    //int deposit = Convert.ToInt32(Console.ReadLine());
-        //    //demo.Deposit(deposit);
-        //    //demo.DisplayBalance();
+//        //    //Console.WriteLine("Enter deposit amount");
+//        //    //int deposit = Convert.ToInt32(Console.ReadLine());
+//        //    //demo.Deposit(deposit);
+//        //    //demo.DisplayBalance();
 
 
-        //    //understanding static constructor
+//        //    //understanding static constructor
 
-        //    //default
-        //    // var call_obj=new ConstructorDemo();
-        //    // call_obj = null;
-        //    //var call_obj1 = new ConstructorDemo(1200);
-        //    //var call_obj2 = new ConstructorDemo();
-        //    //Console.ReadLine();
+//        //    //default
+//        //    // var call_obj=new ConstructorDemo();
+//        //    // call_obj = null;
+//        //    //var call_obj1 = new ConstructorDemo(1200);
+//        //    //var call_obj2 = new ConstructorDemo();
+//        //    //Console.ReadLine();
 
-        //    //static methods called --className.Method name
-        //    //var obj=ConstructorDemo.GetInstance();//user-1
-        //    //var obj1 = ConstructorDemo.GetInstance();//user-2
+//        //    //static methods called --className.Method name
+//        //    //var obj=ConstructorDemo.GetInstance();//user-1
+//        //    //var obj1 = ConstructorDemo.GetInstance();//user-2
 
-        //    Console.ReadLine();
-        //}
+//        //    Console.ReadLine();
+//        //}
 
-    }
+//    }
 }
