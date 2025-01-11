@@ -1,0 +1,48 @@
+﻿
+---Cretae db command--
+create database myRadicalDb
+use myRadicalDb
+--sp_renamedb 'myRadical1Db', 'myRadicalDb'
+--drop database myRadicalDb
+--create table students(id int primary key,sname varchar(80),gender char(1),phonNumber int)
+--sp_rename 'students1','students'
+--drop table students
+--alter table students add class int 
+--alter table students drop column class
+--sp_rename 'students.sname1','sname'
+
+--DML--
+--Insert into students values(1004,'Mala','F',1234321),(1005,'Rizwan','M',2234321),(1006,'Sikander','M',1234341)
+----Select--
+--Select * from students
+----update--
+--update students set sname='Rajni',gender='F' where id=1002
+-----
+--delete from students where id=1002
+
+select * from students
+select * from students where id=1001
+select sname,gender from students where id=1001
+select * from students where id in(1001,1005,1004,1100)
+select * from students where id not in(1001,1005,1004,1100)
+
+select * from students where id not between 1001 and 1004
+
+select max(id) as MaxId from students
+select min(id) as MinId from students
+select sum(id) as SumId from students
+
+select * from students order by phonNumber desc
+
+select gender,count(id) from students group by gender
+
+---joining--
+--procedure--
+--ado.net--
+
+
+
+
+
+
+
