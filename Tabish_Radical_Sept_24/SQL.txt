@@ -39,6 +39,20 @@ select gender,count(id) from students group by gender
 ---joining--
 --procedure--
 --ado.net--
+--EF--
+
+ADO.Net
+1.Connection
+2.create queries--stored proc--pass the parametrs
+3.open connection
+4.Fire query
+5.close connection
+
+EF
+EntityFramework
+Enable-Migrations
+Add-Migration InitialCreate
+Update-Database
 
 
 
