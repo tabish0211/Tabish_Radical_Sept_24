@@ -55,6 +55,55 @@ Add-Migration InitialCreate
 Update-Database
 
 
+CREATE TABLE Customers (
+    Id INT PRIMARY KEY IDENTITY,
+    Name NVARCHAR(100),
+    Email NVARCHAR(100)
+);
+
+-- Stored Procedure to Insert Data
+CREATE PROCEDURE sp_InsertCustomer
+    @Name NVARCHAR(100),
+    @Email NVARCHAR(100)
+AS
+BEGIN
+    INSERT INTO Customers (Name, Email) VALUES (@Name, @Email);
+END;
+
+-- Stored Procedure to Update Data
+CREATE PROCEDURE sp_UpdateCustomer
+    @Id INT,
+    @Name NVARCHAR(100),
+    @Email NVARCHAR(100)
+AS
+BEGIN
+    UPDATE Customers SET Name = @Name, Email = @Email WHERE Id = @Id;
+END;
+
+-- Stored Procedure to Delete Data
+CREATE PROCEDURE sp_DeleteCustomer
+    @Id INT
+AS
+BEGIN
+    DELETE FROM Customers WHERE Id = @Id;
+END;
+
+-- Stored Procedure to Retrieve Data
+CREATE PROCEDURE sp_GetCustomerById
+    @Id INT
+AS
+BEGIN
+    SELECT * FROM Customers WHERE Id = @Id;
+END;
+
+-- Stored Procedure to Retrieve All Data
+CREATE PROCEDURE sp_GetAllCustomers
+AS
+BEGIN
+    SELECT * FROM Customers;
+END;
+
+
 
 
 
