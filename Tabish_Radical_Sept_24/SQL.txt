@@ -104,6 +104,13 @@ BEGIN
 END;
 
 
+SOLID
+S-SRP-SIngle responsibilty principle-Class should perform single responsibilty
+O-OCP-Open closed principle---class should close for modification but open for extension
+L-LSP-LIskov substitution principle--Derived classes should be substitutable for their base classes without breaking the functionality.
+I – Interface Segregation Principle (ISP)--Clients should not be forced to depend on interfaces they do not use.
+D – Dependency Inversion Principle (DIP)--High-level modules should not depend on low-level modules. Both should depend on abstractions.
+
 
 
 
