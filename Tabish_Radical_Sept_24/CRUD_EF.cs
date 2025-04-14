@@ -30,19 +30,19 @@ namespace Tabish_Radical_Sept_24
 
     public class CustomerRepository
     {
-        static void Main()
-        {
-            CustomerRepository repository = new CustomerRepository();
-            //repository.AddCustomer(new Customer { Name = "Mahesh", Email = "mahesh@gmail.com" });
-            //Customer customer=repository.GetCustomerById(1);
-           // List<Customer> customers=repository.GetAllCustomers();
-           // repository.UpdateCustomer(customer);
-            repository.DeleteCustomer(1);
+        //static void Main()
+        //{
+        //    CustomerRepository repository = new CustomerRepository();
+        //    //repository.AddCustomer(new Customer { Name = "Mahesh", Email = "mahesh@gmail.com" });
+        //    //Customer customer=repository.GetCustomerById(1);
+        //   // List<Customer> customers=repository.GetAllCustomers();
+        //   // repository.UpdateCustomer(customer);
+        //    repository.DeleteCustomer(1);
 
-            Console.ReadLine();
+        //    Console.ReadLine();
 
 
-        }
+        //}
         private readonly AppDbContext _context;
 
         public CustomerRepository()

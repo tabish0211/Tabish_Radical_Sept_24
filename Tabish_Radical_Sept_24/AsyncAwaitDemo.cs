@@ -108,41 +108,41 @@ namespace Tabish_Radical_Sept_24
 
     class AsynSyncCaller
     {
-        static async Task Main()
-        {
-            //ASynchronous call
-            var asynchrnousObj = new AsyncSynchronous();
-            var watch = new System.Diagnostics.Stopwatch();
-            watch.Start();
-            Task task1 = asynchrnousObj.GetSqlDataSourceAsync();
-            Task task2 = asynchrnousObj.GetMySQLDataSourceAsync();
-            Task task3 = asynchrnousObj.GetOracleDataSourceAsync();
+        //static async Task Main()
+        //{
+        //    //ASynchronous call
+        //    var asynchrnousObj = new AsyncSynchronous();
+        //    var watch = new System.Diagnostics.Stopwatch();
+        //    watch.Start();
+        //    Task task1 = asynchrnousObj.GetSqlDataSourceAsync();
+        //    Task task2 = asynchrnousObj.GetMySQLDataSourceAsync();
+        //    Task task3 = asynchrnousObj.GetOracleDataSourceAsync();
 
-            List<Task> tasks = new List<Task>() { task1, task2, task3 };
-            while (tasks.Count > 0)
-            {
-                Task finishedTask = await Task.WhenAny(tasks);
-                if (finishedTask == task1)
-                {
-                    Console.WriteLine("Record fetched from SQL Data Source");
-                }
-                else if (finishedTask == task2)
-                {
-                    Console.WriteLine("Record fetched from My SQL Data Source");
-                }
-                else if (finishedTask == task3)
-                {
-                    Console.WriteLine("Record fetched from Oracle SQL Data Source");
-                }
+        //    List<Task> tasks = new List<Task>() { task1, task2, task3 };
+        //    while (tasks.Count > 0)
+        //    {
+        //        Task finishedTask = await Task.WhenAny(tasks);
+        //        if (finishedTask == task1)
+        //        {
+        //            Console.WriteLine("Record fetched from SQL Data Source");
+        //        }
+        //        else if (finishedTask == task2)
+        //        {
+        //            Console.WriteLine("Record fetched from My SQL Data Source");
+        //        }
+        //        else if (finishedTask == task3)
+        //        {
+        //            Console.WriteLine("Record fetched from Oracle SQL Data Source");
+        //        }
 
-                await finishedTask;
-                tasks.Remove(finishedTask);
+        //        await finishedTask;
+        //        tasks.Remove(finishedTask);
 
-            }
-            Console.WriteLine($"Total in ms :{watch.ElapsedMilliseconds}");
-            Console.ReadLine();
+        //    }
+        //    Console.WriteLine($"Total in ms :{watch.ElapsedMilliseconds}");
+        //    Console.ReadLine();
 
-        }
+        //}
     }
     class AsyncSynchronous
     {

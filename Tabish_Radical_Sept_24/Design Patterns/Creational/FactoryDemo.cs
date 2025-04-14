@@ -50,11 +50,11 @@ namespace Tabish_Radical_Sept_24.Design_Patterns.Creational
     }
     class FactoryDemo
     {
-        public static void Main()
-        {
-            PaymentFactory paymentFactory = new PaymentFactory();
-            Ipayment payment = paymentFactory.GetPaymentMethod("CreditCard");
-            payment.MakePayment();
-        }
+        //public static void Main()
+        //{
+        //    PaymentFactory paymentFactory = new PaymentFactory();
+        //    Ipayment payment = paymentFactory.GetPaymentMethod("CreditCard");
+        //    payment.MakePayment();
+        //}
     }   
 }

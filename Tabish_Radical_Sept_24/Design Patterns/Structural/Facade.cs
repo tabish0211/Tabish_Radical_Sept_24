@@ -65,10 +65,10 @@ namespace Tabish_Radical_Sept_24.Design_Patterns.Structural
 
     class ConsoleCLient
     {
-        public static void Main()
-        {
-            OrderFacade orderFacade = new OrderFacade();
-            orderFacade.PlaceOrder("ABC123", 2, "Credit Card", "123 Main St, Anytown");
-        }
+        //public static void Main()
+        //{
+        //    OrderFacade orderFacade = new OrderFacade();
+        //    orderFacade.PlaceOrder("ABC123", 2, "Credit Card", "123 Main St, Anytown");
+        //}
     }
 }

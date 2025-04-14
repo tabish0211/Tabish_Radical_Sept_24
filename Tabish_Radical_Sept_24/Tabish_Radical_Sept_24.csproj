@@ -8,7 +8,38 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Design Patterns\**" />
+    <Compile Remove="Migrations\**" />
+    <Compile Remove="OOP\**" />
+    <EmbeddedResource Remove="Design Patterns\**" />
+    <EmbeddedResource Remove="Migrations\**" />
+    <EmbeddedResource Remove="OOP\**" />
+    <None Remove="Design Patterns\**" />
+    <None Remove="Migrations\**" />
+    <None Remove="OOP\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="ArraynCollections.cs" />
+    <Compile Remove="AsyncAwaitDemo.cs" />
+    <Compile Remove="Collections.cs" />
+    <Compile Remove="ConstAndReadOnlyKeywords.cs" />
+    <Compile Remove="CRUD_ADO.cs" />
+    <Compile Remove="CRUD_EF.cs" />
+    <Compile Remove="ExceptionHandling.cs" />
+    <Compile Remove="ExtensionMethod.cs" />
+    <Compile Remove="Generics.cs" />
+    <Compile Remove="GoodCode.cs" />
+    <Compile Remove="LinqDemoTrideep.cs" />
+    <Compile Remove="LoopingExercises.cs" />
+    <Compile Remove="Program.cs" />
     <Compile Remove="SolidImplementation.cs" />
+    <Compile Remove="SOLIDViolations.cs" />
+    <Compile Remove="Tuple.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="SQL.txt" />
   </ItemGroup>
 
   <ItemGroup>

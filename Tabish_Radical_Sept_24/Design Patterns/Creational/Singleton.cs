@@ -37,13 +37,13 @@ namespace Tabish_Radical_Sept_24.Design_Patterns.Creational
 
     public class SingletonTest
     {
-        public static void Main()
-        {
-            ILogger singleton = Singleton.GetInstance();
-            ILogger singleton1 = Singleton.GetInstance();
-            singleton.Log("Hello World");
-            singleton1.Log("Hello World");
-        }
+        //public static void Main()
+        //{
+        //    ILogger singleton = Singleton.GetInstance();
+        //    ILogger singleton1 = Singleton.GetInstance();
+        //    singleton.Log("Hello World");
+        //    singleton1.Log("Hello World");
+        //}
 
     }
        
